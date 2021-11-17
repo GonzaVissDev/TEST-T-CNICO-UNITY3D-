@@ -45,7 +45,9 @@ public class CarController : MonoBehaviour
         moveInput = Input.GetAxisRaw("Vertical");
         rlInput = Input.GetAxisRaw("Horizontal");
 
-       //FALTa indicar cuando el jugador aprete el boton 
+       //FALTa indicar cuando el jugador aprete el boton
+       //Falta iniicar cuando el jugador va marcha atras
+
         
         if (startSpeed <= maxSpeed && acelerar == true)
         {
